@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='bg-[var(--secondary-dark)] grid grid-cols-1 py-[100px] px-16 text-white md:grid-cols-2  '>
+    <div id='about' className='bg-[var(--secondary-dark)] grid grid-cols-1 py-[100px] px-16 text-white md:grid-cols-2  '>
         <div className='flex flex-col justify-center align-center ml-8'>
             <p className='text-[var(--primary)] capitalize text-xl pb-4 '>About Us</p>
             <h2 className='capitalize text-4xl font-bold pb-4 ' >Organic & fresh coffee<br/> Provider Center</h2>

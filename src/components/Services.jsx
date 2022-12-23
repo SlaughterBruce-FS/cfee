@@ -5,7 +5,7 @@ import { MdCoffeeMaker, MdEmojiFoodBeverage } from "react-icons/md";
 const Services = () => {
   return (
     <>
-    <div className='py-[100px] m-o overflow-hidden bg-[var(--primary-dark)] '>
+    <div id='services' className='py-[100px] m-o overflow-hidden bg-[var(--primary-dark)] '>
     <div className='flex flex-col overflow-hidden items-center justify-center text-white'>
          <h4 className='text-[var(--primary)] capitalize'>What we serve</h4>
         <h1 className='text-4xl font-bold capitalize py-6'>Our services</h1>

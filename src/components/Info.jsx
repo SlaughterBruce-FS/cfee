@@ -4,7 +4,7 @@ import { BiCoffeeTogo } from "react-icons/bi";
 
 const Info = () => {
   return (
-    <div className='py-[100px] px-8 md:px-[50px] lg:px-[200px] m-o overflow-hidden bg-[var(--primary-dark)] grid gap-10 lg:grid-cols-2 '>
+    <div id='info' className='py-[100px] px-8 md:px-[50px] lg:px-[200px] m-o overflow-hidden bg-[var(--primary-dark)] grid gap-10 lg:grid-cols-2 '>
         <div>
             <img className='h-full object-cover ' src="../../info.jpeg" alt="test" />
         </div>
