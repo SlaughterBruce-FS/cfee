@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaFacebookF, FaInstagram, FaPhone,FaRegClock, FaTwitter, FaMailBulk} from 'react-icons/fa'
+import {FaFacebookF, FaInstagram, FaPhone,FaRegClock, FaTwitter} from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 
 const TopBar = () => {

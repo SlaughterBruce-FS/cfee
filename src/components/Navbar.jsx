@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import { GiCoffeeCup } from 'react-icons/gi'
 import { FaBars, FaShoppingCart } from 'react-icons/fa';
 
