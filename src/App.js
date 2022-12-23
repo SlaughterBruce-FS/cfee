@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Book from "./components/Book";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
@@ -24,6 +25,7 @@ function App() {
       <Testimonials />
       <Book />
       <Blog />
+      <Contact />
       <Footer />
     </div>
   );
