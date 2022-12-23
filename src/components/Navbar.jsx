@@ -10,7 +10,8 @@ const Navbar = () => {
     }
 
   return (
-    <div className='items-center z-20 absolute w-[90%] min-h-[50px] flex justify-between text-white mx-8 my-2 '>
+    <div className='overflow-hidden '>
+    <div className='items-center z-20 absolute w-[90%] md:w-[97%] min-h-[50px] overflow-hidden flex justify-between text-white mx-8 my-2 '>
         <div className='flex items-center  '>
             <GiCoffeeCup size={34}  className='mr-2'/>
             <h2>Coffeecine</h2>
@@ -68,6 +69,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
+    </div>
     </div>
   )
 }

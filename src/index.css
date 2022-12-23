@@ -38,3 +38,30 @@
 
 }
 
+#slider-container .test {
+
+  width: 100% !important;
+
+}
+
+.slick-slider .slick-arrow:before {
+  color: #333;
+  font-size: 2rem;
+}
+
+.slick-slider .slick-dots button:before {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.slick-slider .slick-dots li.slick-active button::before {
+  color: var(--primary);
+}
+.slick-slider .slick-dots {
+  bottom: -44px;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0 0.5rem;
+}
+

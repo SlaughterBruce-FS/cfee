@@ -14,7 +14,7 @@ import TopBar from "./components/TopBar";
 
 function App() {
   return (
-    <div className="App scroll-smooth">
+    <div className="App scroll-smooth overflow-hidden ">
       <TopBar />
       <Navbar />
       <Hero />
